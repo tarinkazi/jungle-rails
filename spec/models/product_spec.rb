@@ -30,10 +30,10 @@ RSpec.describe Product, type: :model do
       @prod.save
       expect(@prod.errors.full_messages).to include "Price can't be blank"
     end
-    it 'throws an error if no price in product' do
+    it 'throws an error if no quantity in product' do
       @cat = Category.find_or_create_by! name: 'Furniture'
       @cat.save
-      @prod = Product.new name: 'chair', category: @cat, price: 3, quantity: nil
+      @prod = Product.new name: 'chair', category: @cat, price: 10, quantity: nil
       @prod.save
       expect(@prod.errors.full_messages).to include "Quantity can't be blank"
     end
