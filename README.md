@@ -36,5 +36,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 * capybara
 * poltergeist
-* RSpec
-  
+* RSpe
+ 
+ 
+## Screenshot 
+
+!["Site Screening"](https://github.com/tarinkazi/jungle-rails/blob/6febf30d5a2cae0e47a6bfa03aa6f0cd15d27dd8/public/Jungle.png)
